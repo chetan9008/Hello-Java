@@ -1,5 +1,6 @@
+package Chapter_1;
 class first {
-    public static void main(String args[])
+    public static void main(String arguments[])
     {
         System.out.println("hello world");
     }
