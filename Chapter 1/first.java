@@ -1,4 +1,3 @@
-package Chapter_1;
 class first {
     public static void main(String arguments[])
     {
