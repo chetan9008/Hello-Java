@@ -39,16 +39,17 @@ class constants {
 
         //reading from key board
             
-        Scanner scan = new Scanner(System.in);
-        // System.out.println("Enter the number");
-        // int integer = scan.nextInt();
-        // System.out.println(integer);
-        // double valueFloat = scan.nextDouble();
-        // System.out.println(valueFloat);
-        // float valueFloat1 = scan.nextFloat();
-        // System.out.println(valueFloat1); 
-        System.out.println("enter the string"); 
-        String stringValue = scan.nextLine();
-        System.out.println("string is " + stringValue); 
+        try (Scanner scan = new Scanner(System.in)) {
+            // System.out.println("Enter the number");
+            // int integer = scan.nextInt();
+            // System.out.println(integer);
+            // double valueFloat = scan.nextDouble();
+            // System.out.println(valueFloat);
+            // float valueFloat1 = scan.nextFloat();
+            // System.out.println(valueFloat1); 
+            System.out.println("enter the string"); 
+            String stringValue = scan.nextLine();
+            System.out.println("string is " + stringValue);
+        } 
     }
 }
