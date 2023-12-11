@@ -1,4 +1,4 @@
-import java.lang.*;
+import java.lang.Math;
 
 public class typecasting {
     public static void main(String[] args) {
