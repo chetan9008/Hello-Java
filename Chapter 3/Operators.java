@@ -16,15 +16,15 @@ public class Operators {
         System.out.println(a + b);
         System.out.println(20.5 % 6.4);
 
-        // System.out.println();
-        // try (Scanner scan = new Scanner(System.in)) {
-        //     int year = scan.nextInt();
-        //     if (year % 400 == 0 || year % 100 != 0 && year % 4 == 0) {
-        //         System.out.println(year + "is leap year");
-        //     } else {
-        //         System.out.println(year + "is not leap year");
-        //     }
-        // }
+        System.out.println();
+        try (Scanner scan = new Scanner(System.in)) {
+            int year = scan.nextInt();
+            if (year % 400 == 0 || year % 100 != 0 && year % 4 == 0) {
+                System.out.println(year + "is leap year");
+            } else {
+                System.out.println(year + "is not leap year");
+            }
+        }
 
         System.out.println();
 

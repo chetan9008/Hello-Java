@@ -5,7 +5,8 @@ public class forLoop {
         {
             double n = i;
             System.out.print("power of 2^"+(int)n+" : ");
-            System.out.println((int)(Math.pow(2.0,n)));
+            System.out.println((int)(Math.pow(2.0,n))
+            );
         }
     }
 }   
