@@ -26,6 +26,16 @@ public class label {
             }
             System.out.println();
         }
+        factorial();
+    }
 
+    public static void factorial()
+    {
+        int fact = 1;
+        for(int num = 5;num >=1;num--)
+        {
+            fact *= num;
+        }
+        System.out.println("Factorial is " + fact);
     }
 }
