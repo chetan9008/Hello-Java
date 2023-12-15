@@ -1,4 +1,4 @@
-class example {
+class Example {
     void function(int x, double y) {
         System.out.println("int : " + x + " float : " + y);
     }
@@ -29,7 +29,7 @@ public class symbolicConstant {
         System.out.println((char) example_var2);
         System.out.println((double) example_var2);
 
-        example ex = new example();
+        Example ex = new Example();
         ex.function(2.2,2);
     }
 }
