@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "Chapter_6.array",
+            "projectName": "Hello Java_bd433344"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
