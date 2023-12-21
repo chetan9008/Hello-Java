@@ -2,6 +2,8 @@ import java.io.*;
 import java.util.Vector;
 
 public class vector {
+
+@SuppressWarnings("all")
     public static void main(String[] args) {
         Vector vec = new Vector();
         for (int i = 0; i < 5; i++) {

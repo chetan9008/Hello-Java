@@ -3,7 +3,8 @@ public class enumInJava {
     enum color {
         RED,BLUE,GREEN
     }
-    public static void main(String[] args) {
+@SuppressWarnings("all")
+public static void main(String[] args) {
         color c = color.RED;
         System.out.println(c);
         switch(c)
