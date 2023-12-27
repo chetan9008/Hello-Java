@@ -23,8 +23,8 @@ class C extends Thread {
 
 public class createThreadUsingClass {
     public static void main(String[] args) {
-        new A().start();
-        new B().start();
-        new C().start();
+        new A().run();
+        new B().run();
+        new C().run();
     }
 }
