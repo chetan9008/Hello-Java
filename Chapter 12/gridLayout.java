@@ -6,7 +6,7 @@ public class gridLayout {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         frame.setSize(500, 500);
-        frame.setLayout(new GridLayout(5,5));
+        frame.setLayout(new GridLayout(5,5,10,10));
 
         frame.add(new JButton("1"));
         frame.add(new JButton("2"));
