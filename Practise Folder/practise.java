@@ -1,21 +1,16 @@
-class ClassBox {
-    float width, hieght, depth;
-    ClassBox(float width,float hieght,float depth)
-    {
-        this.width = width;
-        this.hieght = hieght;
-        this.depth = depth;
-    }
-
-    void dislay()
-    {
-        System.out.println("Width is " + width);
-        System.out.println("Hieght is " + hieght);
-        System.out.println("Depth is " + depth);
-    }
-}
+/**
+ * practise
+ */
 public class practise {
+
     public static void main(String[] args) {
-        new ClassBox(2.1f, 3.2f, 4.4f).dislay();
+        Class.forName("com.mysql.jdbc.driver");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost/3306/project");
+        PreparedStatment pstm = con.preareStatement("insert  into empValue(?,?)");
+        pstm.setInt(1, 12);
+        pstm.setString(2, "chetan");
+        int i = pstm.executeUpdate();
+        System.out.println(i + " records updated");
+        con.close();
     }
 }

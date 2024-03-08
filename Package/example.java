@@ -2,7 +2,7 @@ package Package;
 
 import java.util.Scanner;
 
-class example {
+public class example {
     public static void main(String[] args) {
         char ch = 'a';
         switch (ch) {
@@ -25,5 +25,10 @@ class example {
                 System.out.println("It is alphabet");
 
         }
+    }
+
+    public static void display()
+    {
+        System.out.println("hello");
     }
 }
